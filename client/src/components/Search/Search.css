@@ -1,0 +1,26 @@
+
+.search {
+color: black;
+}
+
+
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textfield {
+  justify-content: center;
+  width: 12em;
+  margin: auto;
+}
+
+.searcherror {
+  justify-content: center; 
+  color: red; 
+  margin: auto;
+}

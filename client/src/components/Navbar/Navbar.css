@@ -1,0 +1,21 @@
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: '#2a264a'
+}
+
+a ,a:visited ,a:hover, a:active {
+    color:#FFF;
+    text-decoration: none;
+} 
+
+.logo {
+    display: flex;
+}
+
+
+.links {
+    display: flex;
+    margin-left: auto;
+}

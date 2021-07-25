@@ -1,0 +1,27 @@
+.aboutheader {
+    margin: 2em;
+}
+
+
+.description{
+    color: #2a254a;
+    width: 50%;
+    margin: auto;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .logos{
+        display: grid;
+        grid-column: auto;
+    }
+
+    img {
+        margin:auto;
+    }
+  }

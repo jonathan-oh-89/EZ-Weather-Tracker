@@ -1,0 +1,27 @@
+.carousel {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 75%;
+    /* margin-bottom: 50px; */
+}
+
+
+#switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.graySwitchFont {
+    color: #2a254a;
+}
+
+.arrowDisabled {
+    color: gray
+}
+
+.arrowDisabled svg {
+    cursor: auto;
+}

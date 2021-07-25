@@ -1,0 +1,12 @@
+
+.resetButton {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+.resetButton:hover {
+  cursor: pointer;
+}
+
+
