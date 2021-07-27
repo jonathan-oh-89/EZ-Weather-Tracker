@@ -13,7 +13,7 @@ module.exports.currentWeather = async (zipcode) => {
 
     try {
         console.log("Retrieving data from weather api");
-        const res = await axios.get(url, { params: params })
+        const res = await axios.get(url, { params: params });
         return { ...res.data, zipcode: zipcode, errormessage: null }
     }
     catch (err) {

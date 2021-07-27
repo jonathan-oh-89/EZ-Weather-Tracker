@@ -46,7 +46,7 @@ const ZipCarousel = ({ allZipWeather }) => {
                 index: 0
             })
         }
-        content = slides[slideInfo.index]
+        content = slides[slideInfo.index];
     }
 
     const numSlides = slides.length;

@@ -21,6 +21,7 @@
     "reselect": "^4.0.0",
     "web-vitals": "^1.1.2"
   },
+  "proxy": "http://localhost:8080",
   "scripts": {
     "dev": "npx webpack server --mode development",
     "start": "react-scripts start",

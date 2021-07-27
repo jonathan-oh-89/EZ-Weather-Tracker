@@ -10,14 +10,14 @@ import { useDispatch } from 'react-redux';
 function Home() {
     // console.log("*** HOME ***");
 
-    const allZipWeather = useSelector((state) => state.zipcodeWeatherReducer.allZipWeather)
+    const allZipWeather = useSelector((state) => state.zipcodeWeatherReducer.allZipWeather);
 
     let resetActive = allZipWeather.length > 0;
 
     const dispatch = useDispatch();
     const resetPage = () => {
-        resetActive = false
-        dispatch({ type: 'RESET_WEATHER' })
+        resetActive = false;
+        dispatch({ type: 'RESET_WEATHER' });
     }
 
     return (

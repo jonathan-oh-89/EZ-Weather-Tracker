@@ -1,7 +1,9 @@
 
 export const fetchZipWeather = async (zipcode) => {
     try {
-        const response = await fetch(`http://localhost:3002/weatherapi/getweatherbyzip`, {
+        // const apiURL = "http://localhost:3002/weatherapi/getweatherbyzip"8080
+        const apiURL = "/weatherapi/getweatherbyzip"
+        const response = await fetch(apiURL, {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'

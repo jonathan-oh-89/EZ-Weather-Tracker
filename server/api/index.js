@@ -12,13 +12,13 @@ router.get('/test', async (req, res) => {
 
 router.post('/getweatherbyzip', async (req, res) => {
     const { zip } = req.body;
-    console.log("Got zip weather request for:", zip)
+    console.log("Got zip weather request for:", zip);
     let data = await currentWeather(zip);
     res.send(data);
 })
 
 router.get('*', (req, res) => {
-    res.send('Did not reach any apis')
+    res.send('Did not reach any apis');
 })
 
 module.exports = router;

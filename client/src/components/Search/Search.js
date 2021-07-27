@@ -8,12 +8,12 @@ import { getZip } from "../../actions";
 const Search = () => {
     const [showSearchError, setSearchError] = useState(false);
     const [zipcode, setZipcode] = useState("");
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
     function handleSubmit(event) {
         event.preventDefault();
         dispatch(getZip(zipcode)).catch(err => {
-            setSearchError(true)
+            setSearchError(true);
         })
     }
 
