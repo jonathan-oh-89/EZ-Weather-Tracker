@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "client": "^0.0.1",
     "concurrency": "^0.1.4",
     "concurrently": "^6.2.0",
