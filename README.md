@@ -1,3 +1,6 @@
 # EZ-Weather-Tracker
 
-demo: https://ez-weather-tracker.herokuapp.com/
+Demo: https://ez-weather-tracker.herokuapp.com/
+
+
+Purpose: Learn and implement redux
